@@ -78,7 +78,6 @@ export const TrayContents = React.createClass({
        placement={"bottom"}
        container={this.props.container}
        rootClose={true}
-       target={() => ReactDOM.findDOMNode(this.refs.target)}
        onEnter={this.props.onEnter}
       >
         <TransitionMotion

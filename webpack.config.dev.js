@@ -113,6 +113,8 @@ module.exports = {
     alias: {
       "bootstrap": "../assets/js/libs/bootstrap",
       "underscore": "lodash",
+      "react": "inferno-compat",
+      "react-dom": "inferno-compat"
     }
   },
   devtool: 'source-map'
